@@ -4,17 +4,11 @@
 header('Content-Type: application/json');
 
 // データベース接続情報
-// $host = 'localhost';
-// $dbname = 'aiharatomoe_irohahyakuninisshu';
-// $user = 'aiharatomoe_irohahyakuninisshu';
-// $password = 'neko5656';
-// $port = 3306;
-
-$host = 'localhost';
-$dbname = 'iroha_hyakunin_isshu';
-$user = 'root';
-$password = 'root';
-$port = 3307;
+$host = 'localhost'; // ※データ保護のため実際の情報とは異なります。
+$dbname = 'sample'; // ※データ保護のため実際の情報とは異なります。
+$user = 'sample'; // ※データ保護のため実際の情報とは異なります。
+$password = 'sample'; // ※データ保護のため実際の情報とは異なります。
+$port = 3306;
 
 // PDO (PHP Data Objects) を使用してデータベースに接続
 try {
