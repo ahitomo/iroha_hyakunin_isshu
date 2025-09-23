@@ -601,7 +601,7 @@
 
                 .score-display {
                     font-size: 2.5em;
-                    margin-top: 2vh;
+                    margin-top: 0;
                     margin-bottom: 1vh;
                 }
 
